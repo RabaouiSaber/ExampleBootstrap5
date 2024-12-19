@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'Redressed',cursive;
+}
+
+.merriweather{
+    font-family: 'Merriweather',serif;
+}
+
+
+.rs-navbar{
+    background: rgba(0, 0, 0, .55 );
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, .54 );
+    z-index: 99;
+}
+
+.rs-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.rs-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color:  var(--bs-teal);
+}
+
+.banner,
+.order-form{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/banniere1.jpg") center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.order-form{
+    height: 400px;
+}
+
+.banner .banner-desc{
+    font-size : 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.rs-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/banniere7.jpg") center center fixed no-repeat;
+    background-size: cover;
+    height: 1300px;
+}
+
+.btn-order{
+    color : var(--bs-teal);
+    border-color: var(--bs-teal) ;
+    transition: 0.5s;
+    width:280px;
+}
+
+.btn-outline-info{
+    width:280px;
+}
+
+.btn-order:hover,
+.btn-order:active{
+color: #fff;
+background-color: var(--bs-teal) ;
+}
+
+
+@media (max-width: 1399px) {
+    .mb-25 {
+      margin-bottom: 25px;
+    }
+  }
